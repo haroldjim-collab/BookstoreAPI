@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookstoreAPI", "BookstoreAPI.csproj", "{25312960-D73E-4D33-98BB-803EFEDCD67F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Data", "..\Data\Data.csproj", "{C357EBD5-F954-4F18-A802-C992AA3A0FEA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entities", "..\Entities\Entities.csproj", "{84B7BDFD-E554-4326-B373-C60D0D3F9E78}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Services", "..\Services\Services.csproj", "{7AFEF6BB-5822-4980-82D6-29BC5F7CEE0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookstoreForMigrationTheIdentityUserDBContext", "..\AuthenticationUI\BookstoreForMigrationTheIdentityUserDBContext.csproj", "{FAEF393A-ED89-47FF-B44A-662D542312F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookstoreAuthenticationPages", "..\BookstoreAuthenticationPages\BookstoreAuthenticationPages.csproj", "{4A5D9E96-D64F-4DAC-9AB6-FA41C07BD924}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityDBContext", "..\IdentityDBContext\IdentityDBContext.csproj", "{4C90134F-7CF1-4CE7-8DD9-4DBDD22FF448}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{25312960-D73E-4D33-98BB-803EFEDCD67F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25312960-D73E-4D33-98BB-803EFEDCD67F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25312960-D73E-4D33-98BB-803EFEDCD67F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25312960-D73E-4D33-98BB-803EFEDCD67F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C357EBD5-F954-4F18-A802-C992AA3A0FEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C357EBD5-F954-4F18-A802-C992AA3A0FEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C357EBD5-F954-4F18-A802-C992AA3A0FEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C357EBD5-F954-4F18-A802-C992AA3A0FEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84B7BDFD-E554-4326-B373-C60D0D3F9E78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84B7BDFD-E554-4326-B373-C60D0D3F9E78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84B7BDFD-E554-4326-B373-C60D0D3F9E78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84B7BDFD-E554-4326-B373-C60D0D3F9E78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AFEF6BB-5822-4980-82D6-29BC5F7CEE0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AFEF6BB-5822-4980-82D6-29BC5F7CEE0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AFEF6BB-5822-4980-82D6-29BC5F7CEE0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AFEF6BB-5822-4980-82D6-29BC5F7CEE0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAEF393A-ED89-47FF-B44A-662D542312F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAEF393A-ED89-47FF-B44A-662D542312F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAEF393A-ED89-47FF-B44A-662D542312F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAEF393A-ED89-47FF-B44A-662D542312F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A5D9E96-D64F-4DAC-9AB6-FA41C07BD924}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A5D9E96-D64F-4DAC-9AB6-FA41C07BD924}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A5D9E96-D64F-4DAC-9AB6-FA41C07BD924}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A5D9E96-D64F-4DAC-9AB6-FA41C07BD924}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C90134F-7CF1-4CE7-8DD9-4DBDD22FF448}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C90134F-7CF1-4CE7-8DD9-4DBDD22FF448}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C90134F-7CF1-4CE7-8DD9-4DBDD22FF448}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C90134F-7CF1-4CE7-8DD9-4DBDD22FF448}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {89E71D2D-C338-48A6-8331-353937497C62}
+	EndGlobalSection
+EndGlobal
