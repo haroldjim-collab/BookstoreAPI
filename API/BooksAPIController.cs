@@ -51,10 +51,6 @@ namespace BookstoreAPI.API
             //save to db
             int booksId = 12; // await bookServices.CreateBookAsync(_mapper.Map<Books>(books));
 
-            //this is a quick hotfix 1 - test
-            //this is a quick hotfix 11 - test
-            //this is a quick hotfix 111 - test
-
             return booksId;
         }
 
