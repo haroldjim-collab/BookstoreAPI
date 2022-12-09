@@ -5,7 +5,6 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Services;
 using static System.Reflection.Metadata.BlobBuilder;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -45,11 +44,10 @@ namespace BookstoreAPI.API
 
         // POST api/<BooksAPIController>
         [HttpPost]
-        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)] //https://stackoverflow.com/questions/40646312/asp-net-core-authorize-attribute-not-working-with-jwt
-        public async Task<int> Post([FromForm] BooksInsertViewModel books)
+        public async Task<int> Post([FromForm]BooksViewModel books)
         {
             //save to db
-            int booksId = 12; // await bookServices.CreateBookAsync(_mapper.Map<Books>(books));
+            int booksId = await bookServices.CreateBookAsync(_mapper.Map<Books>(books));
 
             return booksId;
         }
